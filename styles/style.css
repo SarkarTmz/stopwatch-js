@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    text-align: center;
+    margin: 0 auto;
+    min-width: none;
+    width: 50rem;
+    border: 2px solid white;
+    padding: 2rem;
+}
+.num{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+}
+h2{
+    font-size: 60px;
+}
+button{
+    width: 120px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-inline: 10px;
+    cursor: pointer;
+}
+button:hover{
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
