@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 body{
     background-color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Federo', sans-serif;
 }
 .container{
     /* text-align: center; */
@@ -21,13 +23,18 @@ body{
 .num{
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     color: white;
     object-fit: cover;
+    margin-top: 40%;
 }
 h1{
     color: white;
     text-align: center;
     margin-top: 4rem;
+    font-size: 3.5rem;
+    letter-spacing: 5px;
 }
 h2{
     font-size: 4rem;
@@ -38,6 +45,7 @@ h2{
     gap: 1rem;
     align-items: center;
     justify-content: center;
+    margin: 0 1rem;
    
 }
 button{
@@ -57,7 +65,8 @@ button:hover{
 }
 @media screen and (max-width: 768px) {
     .container{
-        width: 80%;
+        width: 300px;
+        height: 300px;
     }
     h2{
         font-size: 2rem;
